@@ -50,6 +50,7 @@ cite, overcite and wrapfig packages.
 %doc %{_texmfdistdir}/doc/latex/ptptex/manptp.pdf
 %doc %{_texmfdistdir}/doc/latex/ptptex/manptp.tex
 %doc %{_texmfdistdir}/doc/latex/ptptex/template.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +61,5 @@ cite, overcite and wrapfig packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

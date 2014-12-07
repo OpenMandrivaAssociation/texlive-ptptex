@@ -6,7 +6,7 @@
 # catalog-version 0.91
 Name:		texlive-ptptex
 Version:	0.91
-Release:	8
+Release:	9
 Summary:	Macros for 'Progress of Theoretical Physics'
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ptptex

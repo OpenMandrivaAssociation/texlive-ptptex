@@ -1,6 +1,6 @@
 Name:		texlive-ptptex
 Version:	19440
-Release:	1
+Release:	2
 Summary:	Macros for 'Progress of Theoretical Physics'
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ptptex
